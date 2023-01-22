@@ -1,0 +1,46 @@
+#titulo_principal{
+    color:cornflowerblue;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.titulo_secundario{
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 50px;
+}
+
+p{
+    line-height: 20px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#locro_imagen{
+    display: block;
+    margin: auto;
+
+}
+
+li{
+    line-height: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: thistle;
+}
+iframe{
+    margin: auto ;
+    display: block;
+}
+
+audio{
+    margin: auto ;
+    display: block;
+}
