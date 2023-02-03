@@ -1,4 +1,18 @@
 
+body{
+    background-color: rgb(250, 240, 236);
+}
+
+h3{
+    text-align: justify;
+    text-indent: 10px;
+}
+
+li{
+    line-height: 30px;
+}
+
+
 #nombre{
     font-size: 40px;
     text-align: center;
@@ -28,17 +42,9 @@
     padding: 12px;
 }
 
-body{
-    background-color: rgb(243, 243, 243);
-}
-
-h3{
-    text-align: justify;
-    text-indent: 10px;
-}
 
 
-#contenedor{
+.contenedor{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,10 +68,12 @@ h3{
 
 #estudio{
     font-size: 50px;
+    margin-bottom: 15px
 }
 
 #experiencia{
     font-size: 50px;
 }
+
 
    
