@@ -5,17 +5,19 @@
     <meta charset="utf-8">
     <title>Información Personal</title>
     <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
 <body>
     <div class="contenedor">
         <div id=datos_personal>
             <img src="img/foto_diego.jpeg" id="foto_playa" alt="foto de playa">
-            <h1 id ="nombre">Diego Iorio</h1>
+            <h1 id="nombre">Diego Iorio</h1>
             <h2 id="trabajo">Desarrrolador Full Stack</h2>
-            <h3>📞  11 1234 5678</h3>
-            <h2 id ="sobre_mi" style="text-align: left;">SOBRE MI</h2>
+            <h3>📞 11 1234 5678</h3>
+            <h2 id="sobre_mi" style="text-align: left;">SOBRE MI</h2>
             <p style="text-align: justify;padding: 0 20px 0px 20px;margin: 10%;">
-                Soy una persona proactiva que siempre busca cosas para hacer.Pienso que el trabajo en equipo es
+                Soy una persona proactiva que siempre busca cosas para hacer. Pienso que el trabajo en equipo es
                 fundamental para llevar adelante un proyecto.
                 No tengo inconvenientes para solicitar ayuda cuando sea necesario y para brindarla cuando me es
                 pedido
@@ -25,40 +27,79 @@
         </div>
 
         <div id=aptitudes>
-            <h2 id="experiencia">Experiencia</h2>
-            <h3 style="color:#bf616e">Circo Studio</h3>
-            <p style="margin-left: 1%;">Abr 2021 - Actualidad</p>
-            <ul>
-                <li>Desempeño de tareas de desarrollo Back End</li>
-                <li>Contruccion de reportes utilizando la herramienta de negocios Power Bi</li>
-                <li>Desempeño de tareas de desarrollo Front End</li>
-                <li>APIs</li>
-                <li>Organizacion de divsion de tareas de equipo</li>
-            </ul>
-            <h2 id="estudio">Estudios</h2>
-            <div class="contenedor">
-                <div  style="width:10%;">
-                    <p style="color:#bf616e;font-size: 18px;">2010 - 2015</p>
-                </div>
-                <div  style="width:90%;">
-                    <p style="font-size: 18px;">Bachiller en Humanidades</p>
-                </div>
-                <p style="margin-left: 2%;color:#bf616e;margin-top: 0px">Instituto San Miguel</p>
+            <div>
+                <h2 id="exp_titulos">Experiencia</h2>
+                <h3 style="color:#bf616e">Circo Studio</h3>
+                <p style="margin-left: 1%;">Abr 2021 - Actualidad</p>
+                <ul>
+                    <li>Desempeño de tareas de desarrollo Back End</li>
+                    <li>Contruccion de reportes utilizando la herramienta de negocios Power Bi</li>
+                    <li>Desempeño de tareas de desarrollo Front End</li>
+                    <li>APIs</li>
+                    <li>Organizacion de divsion de tareas de equipo</li>
+                </ul>
             </div>
+            <div>
+                <h2 id="exp_titulos">Estudios</h2>
 
+                <div class="contenedor">
+                    <div style="width:10%;">
+                        <p style="color:#bf616e;font-size: 18px;">2010 - 2015</p>
+                    </div>
+                    <div style="width:90%;">
+                        <p style="font-size: 18px;">Bachiller en Humanidades</p>
+                    </div>
+                    <p style="margin-left: 2%;color:#bf616e;margin-top: 0px">Instituto San Miguel</p>
+                </div>
+
+                <div class="contenedor">
+                    <div style="width:10%;">
+                        <p style="color:#bf616e;font-size: 18px;">2016 - 2023</p>
+                    </div>
+                    <div style="width:90%;">
+                        <p style="font-size: 18px;">Ingenieria Informatica</p>
+                    </div>
+                    <p style="margin-left: 2%;color:#bf616e;margin-top: 0px;">Universidad de La Matanza</p>
+                </div>
+            </div>
+            <h2 id="exp_titulos">Habilidades</h2>
             <div class="contenedor">
-                <div  style="width:10%;">
-                    <p style="color:#bf616e;font-size: 18px;">2016 - 2023</p>
+                <div style="width:35%;">
+                    <div>
+                        <p style="line-height: 0px;">Habilidad 1</p>
+                        <div id="habilidades" class="progress" role="progressbar" aria-label="Default striped example"
+                            aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar progress-bar-striped" style="width: 100%"></div>
+                        </div>
+
+                    </div>
+                    <p style="line-height: 0px;"> Habilidad 3 </p>
+                    <div id="habilidades" class="progress" role="progressbar" aria-label="Default striped example"
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" style="width: 70%"></div>
+                    </div>
+
                 </div>
-                <div  style="width:90%;">
-                    <p style="font-size: 18px;">Ingenieria Informatica</p>
+                <div style="width:35%;">
+                    <p style="line-height: 0px;"> Habilidad 2 </p>
+                    <div id="habilidades" class="progress" role="progressbar" aria-label="Default striped example"
+                        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" style="width: 50%"></div>
+                    </div>
+                    <p style="line-height: 0px;"> Habilidad 4 </p>
+                    <div id="habilidades" class="progress" role="progressbar" aria-label="Default striped example"
+                        aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" style="width: 65%"></div>
+                    </div>
+
                 </div>
-                <p style="margin-left: 2%;color:#bf616e;margin-top: 0px;">Universidad de La Matanza</p>
             </div>
         </div>
     </div>
-    </p>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 </head>
 

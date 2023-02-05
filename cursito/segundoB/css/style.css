@@ -12,6 +12,23 @@ li{
     line-height: 30px;
 }
 
+.progress{
+    width: 70%;
+}
+
+.progress-bar{
+    background-color:#bf616e !important
+}
+
+
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
 
 #nombre{
     font-size: 40px;
@@ -43,14 +60,6 @@ li{
 }
 
 
-
-.contenedor{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-
 #datos_personal{
     width: 20%; 
     background-color: rgb(233, 193, 195); 
@@ -66,14 +75,12 @@ li{
     padding: 20px;
 }
 
-#estudio{
+#exp_titulos{
     font-size: 50px;
     margin-bottom: 15px
 }
 
-#experiencia{
-    font-size: 50px;
+#habilidades{
+    height: 9px;
+    margin: 20px 0px 20px 20px;  
 }
-
-
-   
