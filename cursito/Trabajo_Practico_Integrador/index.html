@@ -20,6 +20,9 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Cafecito</title>
     <link rel="icon" type="image/x-icon" href="img/icono.png">
+    <!--Font Awesome key-->
+    <script src="https://kit.fontawesome.com/45751b24f2.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -68,10 +71,15 @@
         <article class="articulo1-img">
             <!--Hacer responsivo-->
             <div id="img-seccion1"> 
-                <img src="img/cafeteria.jpg" alt="descripcion de la imagen">
-                <img src="img/cafe.jpg" alt="descripcion de la imagen">
-                <img src="img/cheeseCake.jpg" alt="descripcion de la imagen">
-                <img src="img/brunch.jpg" alt="descripcion de la imagen">
+                <div id="img_col1">
+                    <img src="img/cafeteria.jpg" alt="vista de la cafeteria">
+                    <img src="img/cafe.jpg" alt="cafe especial caramel de la casa">
+                </div>
+              <div id ="img_col2">
+                <img src="img/cheeseCake.jpg" alt="torta mas requerida, cheeseCake">
+                <img src="img/brunch.jpg" alt="uno de los tantos brunch que se ofrecen">
+              </div>
+               
             </div>
 
         </article>
@@ -84,8 +92,44 @@
                 <h2>Lorem ipsum dolor sit amet.</h2>
             </div>
 
-            <div class="tarjetas">
-                <!--Agregar cards-->
+            <div class="tarjetas row">
+                
+                <div class="card col-sm-12 col-md-5 col-lg-2">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-sm-12 col-md-5 col-lg-2" >
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-sm-12 col-md-5 col-lg-2" >
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
+                  <div class="card col-sm-12  col-md-5 col-lg-2" >
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+
             </div>
 
         </article>
@@ -93,52 +137,61 @@
 
     <section class="seccion3 container-fluid">
         <article class="articulo3 row">
-
             <div class="formu-text">
-                <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3>Nos gustaría conocer tu opinión</h3>
             </div>
-
             <div class="formulario col-lg-5 col-md-5 col-sm-12">
                 
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon1">@</span>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                    <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Username" aria-describedby="basic-addon1">
                   </div>
                   
                   <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
                     <span class="input-group-text" id="basic-addon2">@example.com</span>
                   </div>
                   
-                  <label for="basic-url" class="form-label">Your vanity URL</label>
+                  <!-- <label for="basic-url" class="form-label">Your vanity URL</label>
                   <div class="input-group mb-3">
                     <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
                     <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                  </div>
+                  </div> -->
                   
-                  <div class="input-group mb-3">
+                  <!-- <div class="input-group mb-3">
                     <span class="input-group-text">$</span>
                     <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
                     <span class="input-group-text">.00</span>
                   </div>
                   
                   <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                    <input type="text" class="form-control" placeholder="Nombre de Usuario" aria-label="Username">
                     <span class="input-group-text">@</span>
                     <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-                  </div>
+                  </div> -->
                   
                   <div class="input-group">
-                    <span class="input-group-text">With textarea</span>
+                    <span class="input-group-text">Comentario</span>
                     <textarea class="form-control" aria-label="With textarea"></textarea>
                   </div>
-
+                  <div id="rating">
+                    <div>
+                        <h4>Califica tu experiencia</h4>
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </div>
+                  </div>
             </div>
-
+            
             <div class="ubicacion col-lg-5 col-md-5 col-sm-12">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.5131763951404!2d-58.62176348423348!3d-34.742663572371136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc43efea612e3%3A0xacc44907dd05f381!2sLa%20Juanita!5e0!3m2!1ses-419!2sar!4v1654366710331!5m2!1ses-419!2sar" width="600" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-
+       
         </article>
     </section>
 
@@ -150,7 +203,7 @@
             </div>
 
             <div class="datos-footer col-lg-2 col-md-12 col-sd-12">
-                <p>Potrero Digital La Juanita</p>
+                <p>Cafecito</p>
                 <p>Tel: 1122334455</p>
                 <p>Dirección: Leonardo da Vinci 3920, G. Laferrere</p>
             </div>

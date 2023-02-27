@@ -101,6 +101,26 @@ body {
     text-align: center;
 }
 
+/*---CARDS----*/
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+
+    margin: 15px 15px 15px 40px;
+}
+.checked {
+    color: orange;
+  }
+
+  #rating{
+    margin: 15px;
+  }
 /****** SECCION 3 ******/
 .articulo3{
     background-color: lightcyan;
@@ -174,10 +194,74 @@ div.footer-img{
 
 /*Dispositivo: tablet*/
 @media (min-width: 768px){ /*la condicion es que a partir del tamaño de viewport de 768px se cumplan los siguientes estilos*/
+    /* #img-seccion1 {
+        flex-direction: row;
+        
+    }
+
+    #img-seccion1 img {
+      width: 80%;
+      margin: 20px;
+    }  */
+
+
+    #img_col1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 20px;
     
+    }
+
+    #img_col2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin: 10px;
+    
+    }
+
+    #img-seccion1 img {
+        width: 40%;
+        margin: 10px;
+      }  
+  
+
 }
 
 /*Dispositivo: laptop*/
 @media(min-width: 1024px){ /*la condicion es que a partir del tamaño de viewport de 1024px se cumplan los siguientes estilos*/
     
+    #img_col1{
+  
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        /* align-items:center; */
+        width: 50%;
+        margin: 0px;
+
+    }
+
+    #img_col2{
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        /* align-items:center; */
+        width: 50%;
+        margin:0px;
+
+    
+    }
+    #img-seccion1 img {
+        width: 40%;
+        margin: 0px;
+      }  
 }
