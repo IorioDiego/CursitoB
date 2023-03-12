@@ -114,13 +114,12 @@ body {
 
     margin: 15px 15px 15px 40px;
 }
-.checked {
-    color: orange;
-  }
 
-  #rating{
-    margin: 15px;
-  }
+.card-body .btn{
+
+    width: max-content;
+}
+
 /****** SECCION 3 ******/
 .articulo3{
     background-color: lightcyan;
@@ -140,6 +139,13 @@ body {
     width: 100%;
 }
 
+.checked {
+    color: orange;
+  }
+
+  #rating{
+    margin: 15px;
+  }
 /****** FOOTER ******/
 .mi-footer {
     background-color: lightslategray;
@@ -164,10 +170,11 @@ div.footer-img{
     margin-bottom: 0;
 }
 
+
 /********* MEDIAS QUERIES *********/
 
 /*Dispositivo: celular*/
-@media(max-width: 426px){/*la condicion es que HASTA el tamaño de viewport de 426px se cumplan los siguientes estilos*/
+@media(min-width: 426px){/*la condicion es que HASTA el tamaño de viewport de 426px se cumplan los siguientes estilos*/
     /* #img-seccion1 {
         flex-direction: ;
     }
@@ -236,6 +243,11 @@ div.footer-img{
 /*Dispositivo: laptop*/
 @media(min-width: 1024px){ /*la condicion es que a partir del tamaño de viewport de 1024px se cumplan los siguientes estilos*/
     
+    #img-seccion1 {
+        flex-direction: row;
+        
+    }
+
     #img_col1{
   
         display: flex;
@@ -264,4 +276,9 @@ div.footer-img{
         width: 40%;
         margin: 0px;
       }  
+
+      .card{
+        height: 405px;
+      }
+  
 }
